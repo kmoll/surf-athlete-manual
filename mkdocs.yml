@@ -1,0 +1,71 @@
+site_name: The Surf Athlete Manual
+site_description: A living system for building a body that lets you surf better every year.
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Foundations:
+      - Overview: foundations/index.md
+      - Project North Star: foundations/project-north-star.md
+      - The Surf Athlete: foundations/surf-athlete.md
+      - Glossary: foundations/glossary.md
+      - Terminology: foundations/terminology.md
+      - Writing Standards: foundations/writing-standards.md
+  - Surf Performance:
+      - Overview: surf-performance/index.md
+  - Assessment:
+      - Overview: assessment/index.md
+  - Recovery:
+      - Overview: recovery/index.md
+  - Movement:
+      - Overview: movement/index.md
+  - Mobility:
+      - Overview: mobility/index.md
+  - Strength:
+      - Overview: strength/index.md
+  - Conditioning:
+      - Overview: conditioning/index.md
+  - Surf Athleticism:
+      - Overview: surf-athleticism/index.md
+  - Nutrition:
+      - Overview: nutrition/index.md
+  - Programming:
+      - Overview: programming/index.md
+  - Exercise Library:
+      - Overview: exercise-library/index.md
+  - Decisions:
+      - Overview: decisions/index.md
+      - Recovery First: decisions/0001-recovery-first.md
+      - Paddling Priority: decisions/0002-paddling-primary-conditioning.md
+      - Relative Strength: decisions/0003-relative-strength-over-size.md
+      - Public and Private Separation: decisions/0004-public-private-separation.md
+      - Canonical North Star: decisions/0005-north-star-is-canonical.md
+      - Markdown Source of Truth: decisions/0006-markdown-is-source-of-truth.md
+      - Programs Reference Systems: decisions/0007-programs-reference-systems.md
+      - Remove Philosophy Section: decisions/0008-remove-separate-philosophy-section.md
+  - Research:
+      - Overview: research/index.md
+  - References:
+      - Overview: references/index.md
+  - Appendices:
+      - Overview: appendices/index.md
