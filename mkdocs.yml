@@ -31,6 +31,14 @@ nav:
       - Glossary: foundations/glossary.md
       - Terminology: foundations/terminology.md
       - Writing Standards: foundations/writing-standards.md
+  - Application:
+      - Overview: application/overview.md
+      - Create an AI Project: application/create-ai-project.md
+      - Create a Local Private Workspace: application/create-private-workspace.md
+      - Starter Kit: application/starter-kit.md
+      - Use an AI Assistant: application/use-an-ai-assistant.md
+      - Privacy: application/privacy.md
+      - Prompts: application/prompts.md
   - Surf Performance:
       - Overview: surf-performance/index.md
   - Assessment:
@@ -58,11 +66,13 @@ nav:
       - Recovery First: decisions/0001-recovery-first.md
       - Paddling Priority: decisions/0002-paddling-primary-conditioning.md
       - Relative Strength: decisions/0003-relative-strength-over-size.md
-      - Public and Private Separation: decisions/0004-public-private-separation.md
+      - Public and Private Separation (Superseded): decisions/0004-public-private-separation.md
       - Canonical North Star: decisions/0005-north-star-is-canonical.md
       - Markdown Source of Truth: decisions/0006-markdown-is-source-of-truth.md
       - Programs Reference Systems: decisions/0007-programs-reference-systems.md
       - Remove Philosophy Section: decisions/0008-remove-separate-philosophy-section.md
+      - Application Layer and Starter Kit (Superseded): decisions/0009-application-layer-and-starter-kit.md
+      - AI Project Is Primary: decisions/0010-ai-project-is-primary-application-path.md
   - Research:
       - Overview: research/index.md
   - References:

@@ -2,7 +2,7 @@
 
 ## Status
 
-Accepted
+Superseded by [Decision 0009](0009-application-layer-and-starter-kit.md)
 
 ## Context
 
@@ -27,3 +27,4 @@ project or an ignored local `private/` directory.
 
 - [Repository Specification](../../REPOSITORY.md)
 - [Repository Design](../../DESIGN.md)
+- [Decision 0009](0009-application-layer-and-starter-kit.md)

@@ -14,9 +14,25 @@ references, and decision records.
 
 It does not contain athlete-specific dates, destinations, age, body weight,
 medical information, equipment constraints, benchmarks, logs, or photos. Those
-belong in a separate private project or an ignored local `private/` directory.
+belong in a private application workspace named `Surf Athlete Personal`.
 
-## Top-Level Files
+The supported paths, in order, are:
+
+1. A private AI Project, recommended for most users
+2. A separate local folder for users who want files on their computer
+3. A private Git or developer workflow for technical users
+
+```text
+Documents/
+├── Surf Athlete Manual/
+└── Surf Athlete Personal/
+```
+
+The local layout is optional; AI Project users can read the public manual online
+and add only the Starter Kit. An ignored `private/` directory inside a clone is
+an advanced option only for users who understand version control.
+
+## Top-Level Entries
 
 - `README.md`: project introduction and entry points
 - `SUMMARY.md`: executive summary, reading order, and current status
@@ -28,11 +44,13 @@ belong in a separate private project or an ignored local `private/` directory.
 - `ROADMAP.md`: milestones and future work
 - `TODO.md`: near-term working checklist
 - `mkdocs.yml`: documentation site configuration and navigation
+- `starter-kit/`: public-safe templates copied into a private personal workspace
 - `LICENSE`: reuse permissions, once selected intentionally
 
 ## Documentation Directories
 
 - `docs/foundations/`: canonical philosophy, identity, language, and writing rules
+- `docs/application/`: private-workspace setup, Starter Kit, privacy, and AI use
 - `docs/assessment/`: reusable assessment methods
 - `docs/movement/`: movement-quality principles and methods
 - `docs/mobility/`: position and range-of-motion methods
@@ -86,6 +104,18 @@ Programs must link to system and exercise pages rather than copy their protocols
 Public programs use relative timing and generic athlete roles, not personal
 calendars.
 
+## Application Layer
+
+The Application Layer explains how readers apply public systems without placing
+personal information in the manual. The public `starter-kit/` contains blank,
+reusable templates. Most users add them to a private AI Project and paste
+`PROJECT_INSTRUCTIONS.md` into the project's instructions. Local users copy them
+into a separate `Surf Athlete Personal/` folder. Developers may use a separate
+private repository.
+
+The public templates must never contain real athlete data. Private plans should
+reference canonical public protocols instead of duplicating them.
+
 ## Evidence Standard
 
 Expert attribution is limited to Pavel Tsatsouline, Dan John, Kelly Starrett,
@@ -111,6 +141,7 @@ history.
 
 ## Generated and Private Files
 
-The `.gitignore` excludes local environments, caches, built sites, and the local
-`private/` directory. A public release artifact may be committed intentionally to
-`assets/releases/`; private source material may not.
+The `.gitignore` excludes local environments, caches, built sites, and an
+advanced local `private/` directory. AI Projects and sibling local folders remain
+outside the public repository. A public release artifact may be committed
+intentionally to `assets/releases/`; private source material may not.

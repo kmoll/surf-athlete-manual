@@ -27,6 +27,16 @@ is the canonical statement of this philosophy.
 Programs apply these systems to a block, season, or trip. They link to canonical
 protocols rather than repeating them.
 
+## Application Layer
+
+> **The public manual teaches the system. The private workspace applies the system.**
+
+The [Application Layer](docs/application/overview.md) presents three paths. Most
+users can read the manual online, create a private AI Project named
+`Surf Athlete Personal`, and add the public [Starter Kit](starter-kit/README.md).
+A separate local folder is the second option, and Git is reserved for technical
+users who want version history and automation.
+
 ## Recommended Reading Order
 
 1. [Project North Star](docs/foundations/project-north-star.md)
@@ -37,6 +47,7 @@ protocols rather than repeating them.
 6. [Strength](docs/strength/index.md), [conditioning](docs/conditioning/index.md),
    and [surf athleticism](docs/surf-athleticism/index.md)
 7. [Programming](docs/programming/index.md)
+8. [Application Layer](docs/application/overview.md)
 
 ## Repository Rules
 
@@ -50,5 +61,6 @@ protocols rather than repeating them.
 ## Current Status
 
 Version 0.1 establishes the public/private boundary, canonical foundations,
-repository specification, and navigation. Most training-system chapters remain
-in development; see [ROADMAP.md](ROADMAP.md) and [TODO.md](TODO.md).
+repository specification, Application Layer, Starter Kit, and navigation. Most
+training-system chapters remain in development; see [ROADMAP.md](ROADMAP.md) and
+[TODO.md](TODO.md).

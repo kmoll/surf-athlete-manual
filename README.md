@@ -12,7 +12,9 @@ systems rather than documenting one athlete's plan.
 1. Read the [Project North Star](docs/foundations/project-north-star.md) for the
    mission and governing principles.
 2. Read the [project summary](SUMMARY.md) for the manual's sections and status.
-3. Use the [repository specification](REPOSITORY.md) when contributing or
+3. Follow the [Application Layer](docs/application/overview.md) to create a
+   private AI Project or another personal training workspace.
+4. Use the [repository specification](REPOSITORY.md) when contributing or
    reorganizing content.
 
 ## Who It Is For
@@ -29,7 +31,16 @@ challenge, or a personal training journal.
 - MkDocs sites and PDF editions are generated artifacts.
 - Reusable systems are defined once and referenced by programs.
 - Personal schedules, measurements, medical details, and trip plans belong in a
-  separate private project or an ignored local `private/` directory.
+  private application workspace, never in the public manual.
+
+> **The public manual teaches the system. The private workspace applies the system.**
+
+For most users, the easiest path is a private AI Project named
+`Surf Athlete Personal`. Read the manual online, paste the public
+[`PROJECT_INSTRUCTIONS.md`](starter-kit/PROJECT_INSTRUCTIONS.md) into the
+project's instructions, and add the public [Starter Kit](starter-kit/README.md)
+templates. A separate local folder is the second option; Git workflows are for
+technical users.
 
 ## Evidence Standard
 
@@ -41,6 +52,7 @@ stated rather than hidden.
 ## Repository Map
 
 - `docs/foundations/`: mission, identity, terminology, and writing standards
+- `docs/application/`: private-workspace setup, privacy, and AI-assistant guidance
 - `docs/assessment/`: reusable assessment methods
 - `docs/movement/` and `docs/mobility/`: movement quality and usable range
 - `docs/strength/`, `docs/conditioning/`, and `docs/surf-athleticism/`: training systems
@@ -49,6 +61,7 @@ stated rather than hidden.
 - `docs/exercise-library/`: canonical exercise instructions
 - `docs/research/` and `docs/references/`: evidence notes and sources
 - `docs/decisions/`: significant architecture and programming decisions
+- `starter-kit/`: public-safe templates for a separate private workspace
 
 See [REPOSITORY.md](REPOSITORY.md) for the full specification.
 
@@ -56,4 +69,4 @@ See [REPOSITORY.md](REPOSITORY.md) for the full specification.
 
 **Version:** 0.1.0
 
-**Status:** Foundation architecture
+**Status:** Foundation and application architecture

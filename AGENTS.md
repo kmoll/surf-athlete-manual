@@ -18,6 +18,11 @@ and lifelong improvement. The public repository must remain reusable and must
 not contain an individual athlete's dates, destinations, measurements, medical
 details, equipment constraints, benchmarks, or logs.
 
+Recommend a private AI Project named `Surf Athlete Personal` for most users. Offer
+a separate local `Surf Athlete Personal/` folder second and Git or developer
+workflows third. Mention an ignored in-repository `private/` directory only as an
+advanced option for users who understand version control.
+
 ## Approved Expert Sources
 
 Recommendations may only be attributed to:
@@ -57,6 +62,8 @@ provide a definitive answer, say so.
 - Markdown files are canonical; GitHub is the authoritative version history.
 - PDFs and websites are generated artifacts.
 - Keep foundations, timeless systems, and program applications distinct.
+- Keep the public Application Layer and blank Starter Kit distinct from completed
+  personal plans.
 - Treat `docs/foundations/project-north-star.md` as the sole canonical philosophy.
 - Define protocols once and link to them with relative links.
 - Keep personal details out of the public repository.

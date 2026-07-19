@@ -13,6 +13,13 @@ assessment and recovery systems.
 - [x] Remove the separate philosophy section
 - [x] Separate public documentation from personal athlete application
 - [x] Update MkDocs navigation and architecture decision records
+- [x] Add the public Application Layer and non-technical setup flow
+- [x] Add the complete private-workspace Starter Kit
+- [x] Add AI-assistant prompts and private-workspace instructions
+- [x] Add the primary AI Project setup guide
+- [x] Add copy/paste `PROJECT_INSTRUCTIONS.md`
+- [x] Reorder setup paths: AI Project, local folder, then Git
+- [x] Document privacy risks and advanced in-repository use
 - [ ] Select and add a public license
 - [ ] Install and test MkDocs locally
 - [ ] Build the first recovery-readiness decision framework

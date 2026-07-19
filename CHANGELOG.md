@@ -3,6 +3,29 @@
 All meaningful changes to the Surf Athlete Manual are recorded here. The project
 uses semantic versioning where practical.
 
+## [Unreleased]
+
+### Added
+
+- Public Application Layer with AI Project, local folder, and developer paths
+- Primary setup guide for ChatGPT Projects, Claude Projects, and similar tools
+- Copy-ready private Starter Kit with planning, logging, recovery, nutrition,
+  travel, equipment, history, and AI-assistant templates
+- Copy/paste `PROJECT_INSTRUCTIONS.md` for project-style AI interfaces
+- Assistant-agnostic prompts for AI Project setup, local folder setup, baseline,
+  block creation, weekly review, and recovery-based adjustment
+- Privacy guidance covering repositories, PDFs, archives, cloud sharing, and
+  generated artifacts
+- Decision record for the Application Layer and Starter Kit
+
+### Changed
+
+- Made a private AI Project named `Surf Athlete Personal` the primary setup for
+  most users
+- Moved the separate local folder path to second and Git/developer use to third
+- Reclassified an ignored in-repository `private/` folder as an advanced option
+  for users who understand version control
+
 ## [0.1.0] - 2026-07-19
 
 ### Added

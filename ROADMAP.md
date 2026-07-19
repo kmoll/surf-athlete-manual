@@ -13,7 +13,16 @@
 - [ ] Select a public license
 - [ ] Validate and publish the MkDocs site
 
-## Version 0.2: Assessment and Recovery
+## Version 0.2: Application, Assessment, and Recovery
+
+- [x] Add the public Application Layer
+- [x] Add the private-workspace Starter Kit templates
+- [x] Add AI-assistant setup guidance and prompts
+- [x] Make a private AI Project the primary setup for most users
+- [x] Keep a separate local folder as the second setup path
+- [x] Keep Git and developer workflows as the third setup path
+- [x] Add copy/paste project instructions for AI Project interfaces
+- [x] Document privacy risks and advanced repository use
 
 - [ ] Movement assessment
 - [ ] Strength assessment

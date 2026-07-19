@@ -8,8 +8,8 @@ paddle capacity, readiness, and relevant body-composition trends.
 ## Scope
 
 This section owns assessment protocols, baseline methods, and periodic reviews.
-Personal results and benchmarks belong in a private project, not in the public
-manual.
+Personal results and benchmarks belong in the separate `Surf Athlete Personal/`
+workspace, not in the public manual.
 
 ## Tracking
 

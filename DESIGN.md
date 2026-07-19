@@ -28,10 +28,27 @@ becoming a second, conflicting source of truth.
 
 The public manual teaches reusable knowledge. Athlete-specific dates,
 destinations, measurements, medical details, equipment constraints, logs, and
-benchmarks belong in a separate private project or ignored local directory.
+benchmarks belong in a private application workspace named
+`Surf Athlete Personal`.
 
 Public programs therefore use roles and relative timing such as "peak week" or
 "12-week preparation block," not a named athlete's calendar.
+
+## Application Layer
+
+The public manual teaches the system. The private workspace applies the system.
+
+The Application Layer connects those two responsibilities without mixing their
+data. Public setup guides and blank Starter Kit templates support three paths:
+
+1. A private AI Project, recommended for most users
+2. A separate local `Surf Athlete Personal/` folder
+3. A private Git or developer workflow for technical users
+
+Most users can read the manual online and add only the Starter Kit to their AI
+Project. Cloning the public repository is not required. An ignored `private/`
+directory inside the public clone remains an advanced option and is never the
+default user flow.
 
 ## Source-of-Truth Rules
 

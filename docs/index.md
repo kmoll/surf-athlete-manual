@@ -25,7 +25,16 @@ protocols.
 Personal schedules, measurements, medical details, and trip plans are outside
 the scope of this public manual.
 
+## Apply the System
+
+> **The public manual teaches the system. The private workspace applies the system.**
+
+Use the [Application Layer](application/overview.md) to create a private AI
+Project, add the Starter Kit, and work with an assistant without publishing
+personal training information. Local folder and developer workflows remain
+available as secondary options.
+
 ## Current Status
 
-Version 0.1 establishes the repository architecture and canonical foundations.
-Core training-system content remains in development.
+Version 0.1 establishes the repository architecture, canonical foundations, and
+Application Layer. Core training-system content remains in development.
