@@ -26,6 +26,9 @@ uses semantic versioning where practical.
 - Cloudflare Workers static-assets deployment configuration
 - Downloadable Starter Kit archive generated from the canonical templates
 - Site-wide footer link to the health and safety disclaimer
+- Reusable movement, strength, conditioning, and paddle-capacity assessment
+  methods, using submaximal and qualitative checks without personal benchmark
+  data
 
 ### Changed
 

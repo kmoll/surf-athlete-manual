@@ -23,10 +23,10 @@
 - [x] Document privacy risks and advanced repository use
 - [x] Research recovery-readiness inputs and practical recovery options
 
-- [ ] Movement assessment
-- [ ] Strength assessment
-- [ ] Conditioning assessment
-- [ ] Paddle-capacity assessment
+- [x] Movement assessment
+- [x] Strength assessment
+- [x] Conditioning assessment
+- [x] Paddle-capacity assessment
 - [x] Readiness and recovery tracking template
 - [x] Recovery-readiness guidance without a readiness score
 

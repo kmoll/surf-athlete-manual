@@ -2,7 +2,7 @@
 
 ## Next Priority
 
-Create reusable assessment methods without personal benchmark data.
+Begin Version 0.3 core systems, starting with the movement system.
 
 ## Active Tasks
 
@@ -21,7 +21,7 @@ Create reusable assessment methods without personal benchmark data.
 - [x] Document privacy risks and advanced in-repository use
 - [x] Research recovery-readiness inputs and practical recovery options
 - [x] Publish recovery-readiness guidance without a readiness score
-- [ ] Create reusable assessment methods without personal benchmark data
+- [x] Create reusable assessment methods without personal benchmark data
 
 ## Documentation Tooling
 

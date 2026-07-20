@@ -72,7 +72,16 @@ export default defineConfig({
           ],
         },
         systemSection('Surf Performance', 'surf-performance'),
-        systemSection('Assessment', 'assessment'),
+        {
+          label: 'Assessment',
+          items: [
+            { slug: 'assessment' },
+            { slug: 'assessment/movement-assessment' },
+            { slug: 'assessment/strength-assessment' },
+            { slug: 'assessment/conditioning-assessment' },
+            { slug: 'assessment/paddle-capacity-assessment' },
+          ],
+        },
         {
           label: 'Recovery',
           items: [
