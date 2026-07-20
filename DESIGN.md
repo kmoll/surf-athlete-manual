@@ -57,13 +57,15 @@ default user flow.
 - The North Star is canonical for project philosophy.
 - A protocol has one canonical system or exercise page.
 - Programs link to canonical protocols instead of copying them.
-- MkDocs sites, PDFs, and files under `assets/releases/` are generated artifacts.
+- Astro/Starlight sites, PDFs, and files under `assets/releases/` are generated
+  artifacts.
 
 ## Linking Strategy
 
 Repository Markdown uses relative links. Links should point directly to the
 canonical page rather than through duplicate summaries. Adding or moving a
-navigable page requires a corresponding `mkdocs.yml` update.
+navigable page requires a corresponding Starlight sidebar update in
+`astro.config.mjs`.
 
 ## Documentation Conventions
 

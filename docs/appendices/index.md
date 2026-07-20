@@ -1,4 +1,12 @@
-# Appendices
+---
+title: "Appendices"
+---
+
+## Available
+
+- [Health and Safety Disclaimer](health-safety-disclaimer.md)
+
+## Planned
 
 Planned appendices include:
 

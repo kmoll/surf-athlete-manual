@@ -4,8 +4,15 @@ private/
 
 # Generated documentation
 site/
+dist/
+.astro/
+node_modules/
+public/starter-kit/
+public/downloads/
+public/DESIGN.md
+public/REPOSITORY.md
 
-# Python and MkDocs caches
+# Legacy Python caches
 .venv/
 venv/
 __pycache__/

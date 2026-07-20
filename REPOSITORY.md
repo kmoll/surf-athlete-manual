@@ -43,7 +43,9 @@ an advanced option only for users who understand version control.
 - `CHANGELOG.md`: meaningful released or release-ready changes
 - `ROADMAP.md`: milestones and future work
 - `TODO.md`: near-term working checklist
-- `mkdocs.yml`: documentation site configuration and navigation
+- `package.json`: JavaScript dependencies and build commands
+- `astro.config.mjs`: Starlight site configuration and navigation
+- `wrangler.jsonc`: Cloudflare Workers static-assets configuration
 - `starter-kit/`: public-safe templates copied into a private personal workspace
 - `LICENSE`: reuse permissions, once selected intentionally
 
@@ -94,7 +96,8 @@ documents.
 - Use relative links for repository content.
 - Name index pages `index.md`.
 - Use four-digit, sequential prefixes for decision records.
-- Update incoming links and `mkdocs.yml` when moving a page.
+- Update incoming links and the Starlight sidebar in `astro.config.mjs` when
+  moving a page.
 
 ## Systems Before Programs
 
@@ -133,10 +136,10 @@ history.
 ## Change and Release Process
 
 1. Update the canonical Markdown source.
-2. Update related links and MkDocs navigation.
+2. Update related links and Starlight navigation.
 3. Add or revise a decision record when the governing rule changes.
 4. Update `TODO.md`, `ROADMAP.md`, and `CHANGELOG.md` as appropriate.
-5. Validate internal links and build the documentation site.
+5. Run `npm run build` to validate content and build the documentation site.
 6. Commit to Git and generate release artifacts from the reviewed version.
 
 ## Generated and Private Files

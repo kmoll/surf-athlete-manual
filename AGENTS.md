@@ -67,7 +67,9 @@ provide a definitive answer, say so.
 - Treat `docs/foundations/project-north-star.md` as the sole canonical philosophy.
 - Define protocols once and link to them with relative links.
 - Keep personal details out of the public repository.
-- Update `mkdocs.yml` when adding or moving navigable pages.
+- Update the Starlight sidebar in `astro.config.mjs` when adding or moving
+  navigable pages.
+- Run `npm run build` after changing content, navigation, or site code.
 - Update `CHANGELOG.md` for meaningful changes and `TODO.md` for active work.
 - Add a decision record for significant architecture or programming decisions.
 

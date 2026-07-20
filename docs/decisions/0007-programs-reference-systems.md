@@ -1,4 +1,6 @@
-# Decision 0007: Programs Reference Systems
+---
+title: "Decision 0007: Programs Reference Systems"
+---
 
 ## Status
 

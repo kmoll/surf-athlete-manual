@@ -28,7 +28,7 @@ challenge, or a personal training journal.
 
 - Markdown files are the canonical content.
 - GitHub is the authoritative version history.
-- MkDocs sites and PDF editions are generated artifacts.
+- The Astro/Starlight site and PDF editions are generated artifacts.
 - Reusable systems are defined once and referenced by programs.
 - Personal schedules, measurements, medical details, and trip plans belong in a
   private application workspace, never in the public manual.
@@ -49,6 +49,13 @@ Starrett, Gray Cook, Stuart McGill, Mark Rippetoe, and Ben Patrick. Material bas
 on general exercise physiology must be labeled accordingly. Uncertainty must be
 stated rather than hidden.
 
+## Health and Safety
+
+This manual provides general educational information, not medical advice or
+individualized professional care. Read the
+[Health and Safety Disclaimer](docs/appendices/health-safety-disclaimer.md)
+before applying its training, recovery, or nutrition material.
+
 ## Repository Map
 
 - `docs/foundations/`: mission, identity, terminology, and writing standards
@@ -64,6 +71,13 @@ stated rather than hidden.
 - `starter-kit/`: public-safe templates for a separate private workspace
 
 See [REPOSITORY.md](REPOSITORY.md) for the full specification.
+
+## Local Site
+
+The public site uses Astro Starlight and deploys as static assets on Cloudflare
+Workers. Run `npm install`, then `npm run dev` for local editing or
+`npm run build` for the production build. The generated site is written to
+`dist/`.
 
 ## Current Status
 

@@ -1,4 +1,6 @@
-# Create a Local Private Workspace
+---
+title: "Create a Local Private Workspace"
+---
 
 ## When to Use This Path
 

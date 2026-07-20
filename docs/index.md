@@ -1,4 +1,6 @@
-# The Surf Athlete Manual
+---
+title: "The Surf Athlete Manual"
+---
 
 > A living system for building a body that lets you surf better every year.
 
@@ -33,6 +35,15 @@ Use the [Application Layer](application/overview.md) to create a private AI
 Project, add the Starter Kit, and work with an assistant without publishing
 personal training information. Local folder and developer workflows remain
 available as secondary options.
+
+[Download the blank Starter Kit](/downloads/surf-athlete-starter-kit.zip)
+
+## Health and Safety
+
+This manual provides general educational information, not medical advice or
+individualized professional care. Read the
+[Health and Safety Disclaimer](appendices/health-safety-disclaimer.md) before
+applying its training, recovery, or nutrition material.
 
 ## Current Status
 

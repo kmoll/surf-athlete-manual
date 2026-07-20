@@ -1,4 +1,6 @@
-# Decision 0001: Recovery Comes First
+---
+title: "Decision 0001: Recovery Comes First"
+---
 
 ## Status
 

@@ -1,4 +1,6 @@
-# Foundations
+---
+title: "Foundations"
+---
 
 The foundations define the manual's enduring mission, athlete identity,
 language, and editorial rules.

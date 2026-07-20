@@ -1,4 +1,6 @@
-# Surf Athleticism
+---
+title: "Surf Athleticism"
+---
 
 ## Purpose
 

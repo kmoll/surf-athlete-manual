@@ -1,4 +1,6 @@
-# Use an AI Assistant
+---
+title: "Use an AI Assistant"
+---
 
 ## Purpose
 

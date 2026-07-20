@@ -13,33 +13,41 @@ recoverable.
 - Typical resting measures, if used:
 - Normal response to surf, paddling, and strength work:
 
-## Daily Readiness Check
+## Current Check
 
 - Sleep:
 - Soreness:
 - Pain or symptoms:
 - Energy and motivation:
-- Performance trend:
-- Illness or travel stress:
-- Accumulated surf and paddle volume:
+- Life and travel stress:
+- Recent surf, paddle, strength, and conditioning load:
+- Meaningful change from my normal baseline:
 
-## Decision Rules
+Do not add these observations into a readiness score. Use the public manual's
+Recovery-Readiness Guidance to choose an action.
 
-### Green: Continue
+## Decision Record
 
-- Signals:
-- Allowed training:
+- What was planned:
+- Action: proceed, modify, recover, or evaluate
+- Signals that materially affected the decision:
+- What changed:
+- Warm-up confirmation:
+- Later or next-day response:
 
-### Yellow: Reduce or Replace
+## Preferred Modifications
 
-- Signals:
-- Preferred reductions or alternatives:
+- Optional work to remove first:
+- Ways to reduce volume while preserving quality:
+- Easier alternatives that are genuinely restorative:
+- Sessions that should be postponed rather than modified:
 
-### Red: Stop and Recover
+## Safety Boundaries
 
-- Signals:
-- Recovery action:
+- Pain, illness, injury concerns, or unusual symptoms that require stopping or
+  modifying training:
 - When qualified evaluation is needed:
+- Relevant professional guidance already received:
 
 ## Recovery Practices
 
@@ -53,4 +61,6 @@ recoverable.
 
 - Evidence of adaptation:
 - Evidence of accumulated fatigue:
+- Decisions that worked well:
+- Repeated signals or modifications:
 - Change for next week:

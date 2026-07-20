@@ -1,4 +1,6 @@
-# Decision 0004: Separate Public Systems from Private Application
+---
+title: "Decision 0004: Separate Public Systems from Private Application"
+---
 
 ## Status
 

@@ -1,4 +1,6 @@
-# Decision 0008: Remove the Separate Philosophy Section
+---
+title: "Decision 0008: Remove the Separate Philosophy Section"
+---
 
 ## Status
 

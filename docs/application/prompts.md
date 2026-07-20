@@ -1,4 +1,6 @@
-# AI Assistant Prompts
+---
+title: "AI Assistant Prompts"
+---
 
 These prompts work with ChatGPT, Claude, Codex, or a similar assistant. Replace
 bracketed placeholders only when needed. Keep all personal output in the private

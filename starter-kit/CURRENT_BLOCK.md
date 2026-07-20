@@ -65,9 +65,10 @@ dose, and adjustment.
 
 ## Recovery Adjustments
 
-- Green readiness:
-- Yellow readiness:
-- Red readiness:
+- Proceed as planned when:
+- Modify the session when:
+- Recover instead of training when:
+- Seek qualified evaluation when:
 - Deload trigger:
 
 ## Review

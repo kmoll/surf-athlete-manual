@@ -1,0 +1,26 @@
+{
+  "name": "surf-athlete-manual",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:public": "node scripts/prepare-public-assets.mjs",
+    "dev": "npm run prepare:public && ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "npm run prepare:public && ASTRO_TELEMETRY_DISABLED=1 astro check && ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "preview:worker": "npm run build && wrangler dev",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@astrojs/markdown-satteri": "^0.3.4",
+    "@astrojs/starlight": "^0.41.3",
+    "archiver": "^8.0.0",
+    "astro": "^7.1.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "typescript": "^6.0.3",
+    "wrangler": "^4.112.0"
+  }
+}

@@ -17,6 +17,15 @@ uses semantic versioning where practical.
 - Privacy guidance covering repositories, PDFs, archives, cloud sharing, and
   generated artifacts
 - Decision record for the Application Layer and Starter Kit
+- Recovery-readiness research covering approved-source principles, monitoring
+  evidence, candidate decision inputs, and practical recovery options
+- Canonical health and safety disclaimer for public and AI-assisted use
+- Recovery-readiness guidance for proceeding, modifying, recovering, or seeking
+  evaluation without using a composite score
+- Astro Starlight site with responsive navigation and built-in search
+- Cloudflare Workers static-assets deployment configuration
+- Downloadable Starter Kit archive generated from the canonical templates
+- Site-wide footer link to the health and safety disclaimer
 
 ### Changed
 
@@ -25,6 +34,10 @@ uses semantic versioning where practical.
 - Moved the separate local folder path to second and Git/developer use to third
 - Reclassified an ignored in-repository `private/` folder as an advanced option
   for users who understand version control
+- Deferred license selection and final production deployment until release
+  preparation
+- Replaced the Starter Kit's color-coded readiness categories with a plain
+  recovery decision record and modification guidance
 
 ## [0.1.0] - 2026-07-19
 

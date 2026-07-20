@@ -1,4 +1,6 @@
-# Decision 0005: Project North Star Is Canonical
+---
+title: "Decision 0005: Project North Star Is Canonical"
+---
 
 ## Status
 

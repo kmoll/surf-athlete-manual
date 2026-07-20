@@ -1,4 +1,6 @@
-# Decision Records
+---
+title: "Decision Records"
+---
 
 Decision records document why significant programming and repository choices
 were made.
@@ -13,3 +15,4 @@ were made.
 - [0008: Remove the Separate Philosophy Section](0008-remove-separate-philosophy-section.md)
 - [0009: Add an Application Layer and Private Starter Kit](0009-application-layer-and-starter-kit.md) (superseded)
 - [0010: AI Project Is the Primary Application Path](0010-ai-project-is-primary-application-path.md)
+- [0011: Use Astro Starlight and Cloudflare Workers](0011-astro-starlight-cloudflare.md)

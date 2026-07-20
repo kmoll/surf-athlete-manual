@@ -7,11 +7,9 @@
 - [x] Separate public systems from private athlete application
 - [x] Add the repository specification and governance files
 - [x] Add foundation identity, terminology, glossary, and writing standards
-- [x] Configure MkDocs and initial navigation
+- [x] Configure the initial documentation site and navigation
 - [x] Record core architecture and programming decisions
 - [x] Add initial system sections and conditioning safety boundaries
-- [ ] Select a public license
-- [ ] Validate and publish the MkDocs site
 
 ## Version 0.2: Application, Assessment, and Recovery
 
@@ -23,13 +21,14 @@
 - [x] Keep Git and developer workflows as the third setup path
 - [x] Add copy/paste project instructions for AI Project interfaces
 - [x] Document privacy risks and advanced repository use
+- [x] Research recovery-readiness inputs and practical recovery options
 
 - [ ] Movement assessment
 - [ ] Strength assessment
 - [ ] Conditioning assessment
 - [ ] Paddle-capacity assessment
-- [ ] Readiness and recovery tracking
-- [ ] Recovery decision framework
+- [x] Readiness and recovery tracking template
+- [x] Recovery-readiness guidance without a readiness score
 
 ## Version 0.3: Core Systems
 
@@ -62,6 +61,9 @@
 - [ ] Editorial and evidence review
 - [ ] Terminology review
 - [ ] Link and navigation validation
-- [ ] MkDocs release
+- [ ] Select and add a public license
+- [x] Migrate the public site to Astro Starlight
+- [x] Add Cloudflare Workers static-assets configuration
+- [ ] Configure the production site URL and deploy to Cloudflare
 - [ ] PDF release workflow
 - [ ] Tagged GitHub release

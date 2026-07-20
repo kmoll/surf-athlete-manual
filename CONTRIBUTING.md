@@ -35,7 +35,9 @@ Every recommendation should:
 - Put applications and schedules in programming pages.
 - Keep personal dates, locations, measurements, medical details, and logs out of
   the public repository.
-- Update `mkdocs.yml` when adding or moving a navigable page.
+- Update the Starlight sidebar in `astro.config.mjs` when adding or moving a
+  navigable page.
+- Run `npm run build` before requesting review.
 - Update `CHANGELOG.md` for meaningful changes and `TODO.md` as work progresses.
 - Create a decision record for significant programming or architecture changes.
 

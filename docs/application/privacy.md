@@ -1,4 +1,6 @@
-# Privacy
+---
+title: "Privacy"
+---
 
 ## Keep Personal Training Data Private
 

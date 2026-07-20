@@ -1,4 +1,6 @@
-# Decision 0003: Relative Strength Over Muscle Size
+---
+title: "Decision 0003: Relative Strength Over Muscle Size"
+---
 
 ## Status
 

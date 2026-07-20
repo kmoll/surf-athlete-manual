@@ -1,4 +1,6 @@
-# Create an AI Project
+---
+title: "Create an AI Project"
+---
 
 ## Recommended Setup
 

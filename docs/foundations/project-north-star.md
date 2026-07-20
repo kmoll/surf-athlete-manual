@@ -1,4 +1,6 @@
-# Project North Star
+---
+title: "Project North Star"
+---
 
 > **Build a body that lets you surf better every year.**
 

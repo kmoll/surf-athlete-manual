@@ -1,4 +1,6 @@
-# The Surf Athlete
+---
+title: "The Surf Athlete"
+---
 
 ## Purpose
 

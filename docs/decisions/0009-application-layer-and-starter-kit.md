@@ -1,4 +1,6 @@
-# Decision 0009: Add an Application Layer and Private Starter Kit
+---
+title: "Decision 0009: Add an Application Layer and Private Starter Kit"
+---
 
 ## Status
 

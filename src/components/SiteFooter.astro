@@ -1,0 +1,36 @@
+---
+import DefaultFooter from '@astrojs/starlight/components/Footer.astro';
+---
+
+<DefaultFooter {...Astro.props}>
+  <slot />
+</DefaultFooter>
+
+<div class="manual-disclaimer">
+  <p>
+    Educational information only. Not medical advice.
+    <a href="/appendices/health-safety-disclaimer/">Health and Safety Disclaimer</a>
+  </p>
+</div>
+
+<style>
+  .manual-disclaimer {
+    border-top: 1px solid var(--sl-color-hairline-light);
+    margin-top: 1.5rem;
+    padding: 1rem 0 0.25rem;
+  }
+
+  p {
+    color: var(--sl-color-gray-3);
+    font-size: var(--sl-text-xs);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  a {
+    color: var(--sl-color-text-accent);
+    font-weight: 650;
+    margin-left: 0.25rem;
+    text-underline-offset: 0.2em;
+  }
+</style>

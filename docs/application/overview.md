@@ -1,4 +1,6 @@
-# Application Layer
+---
+title: "Application Layer"
+---
 
 ## Purpose
 
@@ -11,6 +13,8 @@ personal information.
 Most users can read the manual online and use only the Starter Kit for personal
 planning. You do not need to clone the manual, understand Git, or manage a local
 documentation site.
+
+[Download the Starter Kit](/downloads/surf-athlete-starter-kit.zip)
 
 ## Choose a Setup Path
 

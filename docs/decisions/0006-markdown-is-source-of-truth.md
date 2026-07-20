@@ -1,4 +1,6 @@
-# Decision 0006: Markdown Is the Source of Truth
+---
+title: "Decision 0006: Markdown Is the Source of Truth"
+---
 
 ## Status
 

@@ -1,4 +1,6 @@
-# Starter Kit
+---
+title: "Starter Kit"
+---
 
 ## Purpose
 
@@ -9,6 +11,14 @@ completed training plan, medical advice, or a substitute for assessment.
 AI Project users can upload the templates, paste them into separate project
 notes, or keep them in another private document. Local users copy the directory
 into `Surf Athlete Personal/`.
+
+## Download
+
+[Download the Starter Kit](/downloads/surf-athlete-starter-kit.zip)
+
+The website also publishes each blank template as a plain Markdown file under
+`/starter-kit/`. The ZIP is generated from the canonical public `starter-kit/`
+directory during every site build; it does not contain personal data.
 
 ## Files
 

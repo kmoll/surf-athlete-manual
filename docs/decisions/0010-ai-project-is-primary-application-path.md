@@ -1,4 +1,6 @@
-# Decision 0010: AI Project Is the Primary Application Path
+---
+title: "Decision 0010: AI Project Is the Primary Application Path"
+---
 
 ## Status
 

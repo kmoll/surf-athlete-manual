@@ -1,4 +1,6 @@
-# Decision 0002: Paddling Is the Primary Sport-Specific Conditioning
+---
+title: "Decision 0002: Paddling Is the Primary Sport-Specific Conditioning"
+---
 
 ## Status
 

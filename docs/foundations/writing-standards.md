@@ -1,4 +1,6 @@
-# Writing Standards
+---
+title: "Writing Standards"
+---
 
 ## Purpose
 
