@@ -39,6 +39,11 @@ uses semantic versioning where practical.
 - Replaced the Starter Kit's color-coded readiness categories with a plain
   recovery decision record and modification guidance
 
+### Fixed
+
+- Corrected light-theme foreground tokens so headings and interface text retain
+  strong contrast on white and light-gray backgrounds
+
 ## [0.1.0] - 2026-07-19
 
 ### Added
