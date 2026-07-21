@@ -1,39 +1,47 @@
 :root {
-  --sl-color-accent-low: #143f37;
-  --sl-color-accent: #65c9aa;
-  --sl-color-accent-high: #dcf5ec;
-  --sl-color-white: #f5f8f6;
-  --sl-color-gray-1: #e7ece9;
-  --sl-color-gray-2: #c8d0cc;
-  --sl-color-gray-3: #99a6a1;
-  --sl-color-gray-4: #65736e;
-  --sl-color-gray-5: #34423d;
-  --sl-color-gray-6: #24312d;
-  --sl-color-black: #111a17;
-  --sl-color-bg-nav: rgba(17, 26, 23, 0.96);
-  --sl-color-bg-sidebar: #16211d;
+  /* Dawn Patrol — dark theme: deep ocean navy with a brighter teal accent
+     for contrast, and a warm sunrise coral reserved for emphasis. */
+  --sl-color-accent-low: #0f3f49;
+  --sl-color-accent: #2fc6c0;
+  --sl-color-accent-high: #d8f5f2;
+  --sl-color-accent-coral: #ff7a5c;
+  --sl-color-white: #f4fafa;
+  --sl-color-gray-1: #e7eef0;
+  --sl-color-gray-2: #c7d4d8;
+  --sl-color-gray-3: #98aeb4;
+  --sl-color-gray-4: #6b838a;
+  --sl-color-gray-5: #3a525c;
+  --sl-color-gray-6: #173240;
+  --sl-color-black: #0a2a38;
+  --sl-color-bg-nav: rgba(10, 42, 56, 0.96);
+  --sl-color-bg-sidebar: #0e3644;
   --sl-content-width: 52rem;
   --sl-sidebar-width: 18rem;
   --sl-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
-  --sl-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --sl-font-headings: Poppins, var(--sl-font);
+  --sl-font-mono: "JetBrains Mono", "SFMono-Regular", Consolas,
+    "Liberation Mono", monospace;
 }
 
 :root[data-theme='light'] {
-  --sl-color-accent-low: #d9f1e8;
-  --sl-color-accent: #087d6a;
-  --sl-color-accent-high: #064b40;
-  --sl-color-white: #18221f;
-  --sl-color-gray-1: #24302c;
-  --sl-color-gray-2: #414e49;
-  --sl-color-gray-3: #65716d;
-  --sl-color-gray-4: #929d98;
-  --sl-color-gray-5: #d2dad6;
-  --sl-color-gray-6: #edf1ef;
-  --sl-color-gray-7: #f7f9f8;
-  --sl-color-black: #ffffff;
-  --sl-color-bg-nav: rgba(255, 255, 255, 0.96);
-  --sl-color-bg-sidebar: #f7f9f8;
+  /* Dawn Patrol — light theme (site default): ocean teal on a foam-white
+     background, with sunrise coral reserved for the same emphasis role. */
+  --sl-color-accent-low: #eaf4f4;
+  --sl-color-accent: #0e7c86;
+  --sl-color-accent-high: #0a5a62;
+  --sl-color-accent-coral: #ff6f59;
+  --sl-color-white: #0b2e3d;
+  --sl-color-gray-1: #16303c;
+  --sl-color-gray-2: #2e4a56;
+  --sl-color-gray-3: #4c6b74;
+  --sl-color-gray-4: #7c97a0;
+  --sl-color-gray-5: #bfd3d6;
+  --sl-color-gray-6: #e4f0f0;
+  --sl-color-gray-7: #f7fbfb;
+  --sl-color-black: #f7fbfb;
+  --sl-color-bg-nav: rgba(247, 251, 251, 0.96);
+  --sl-color-bg-sidebar: #eaf4f4;
 }
 
 * {
@@ -42,6 +50,12 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+:focus-visible {
+  border-radius: 3px;
+  outline: 2px solid var(--sl-color-accent);
+  outline-offset: 2px;
 }
 
 body {
@@ -81,16 +95,39 @@ header.header {
 .sl-markdown-content h1,
 .sl-markdown-content h2,
 .sl-markdown-content h3,
+.sl-markdown-content h4,
+.site-title,
+.sidebar-content summary,
+.sidebar-content > ul > li > a {
+  font-family: var(--sl-font-headings);
+}
+
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
 .sl-markdown-content h4 {
   color: var(--sl-color-white);
-  font-weight: 740;
+  font-weight: 640;
   letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .sl-markdown-content h2 {
   border-top: 1px solid var(--sl-color-hairline-light);
   margin-top: 3rem;
   padding-top: 1.5rem;
+  position: relative;
+}
+
+.sl-markdown-content h2::before {
+  background: var(--sl-color-accent);
+  border-radius: 2px;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: -1px;
+  width: 2.5rem;
 }
 
 .sl-markdown-content blockquote {
@@ -107,6 +144,7 @@ header.header {
 .sl-markdown-content table {
   display: table;
   font-size: var(--sl-text-sm);
+  font-variant-numeric: tabular-nums;
   width: 100%;
 }
 
@@ -114,6 +152,10 @@ header.header {
   background: var(--sl-color-gray-6);
   color: var(--sl-color-white);
   font-weight: 700;
+}
+
+.sl-markdown-content tbody tr:nth-child(even) {
+  background: var(--sl-color-accent-low);
 }
 
 .sl-markdown-content :not(pre) > code {
@@ -132,7 +174,26 @@ header.header {
 
 .card,
 .sl-link-card {
+  border: 1px solid var(--sl-color-hairline);
   border-radius: 8px;
+  transition: border-color 0.15s ease-out;
+}
+
+.card:hover,
+.sl-link-card:hover {
+  border-color: var(--sl-color-accent);
+}
+
+.pagination-links a {
+  transition: border-color 0.15s ease-out;
+}
+
+.pagination-links a[rel='next']:hover {
+  border-color: var(--sl-color-accent-coral);
+}
+
+.pagination-links a[rel='next']:hover .link-title {
+  color: var(--sl-color-accent-coral);
 }
 
 @media (max-width: 50rem) {
